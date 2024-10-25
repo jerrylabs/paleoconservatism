@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
-export default defineConfig({
-    site: 'https://jerrylabs.github.io/paleoconservatism/',
-  });
-
+  export default defineConfig({
+    site: 'https://jerrylabs.github.io',
+    base: 'paleoconservatism',
+  })
